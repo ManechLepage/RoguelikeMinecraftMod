@@ -1,8 +1,5 @@
 package net.mediano.roguelikemod.datagen;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.mediano.roguelikemod.RoguelikeMod;
 import net.mediano.roguelikemod.block.ModBlocks;
 import net.mediano.roguelikemod.item.ModItems;
