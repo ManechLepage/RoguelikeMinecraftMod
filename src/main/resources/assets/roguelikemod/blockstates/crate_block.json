@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "roguelikemod:block/crate_block"
+    }
+  }
+}

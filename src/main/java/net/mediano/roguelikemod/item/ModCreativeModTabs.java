@@ -22,9 +22,13 @@ public class ModCreativeModTabs
 
                         // ITEMS
                         pOutput.accept(ModItems.COIN.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
 
                         // BLOCKS
                         pOutput.accept(ModBlocks.UPGRADER.get());
+                        pOutput.accept(ModBlocks.CRATE.get());
+                        pOutput.accept(ModBlocks.SOUNDBLOCK.get());
                     })
                     .build());
 

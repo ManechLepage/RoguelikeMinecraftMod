@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#W#",
+    "WWW"
+  ],
+  "key":
+  {
+    "#": {
+      "item": "roguelikemod:coin"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "roguelikemod:upgrader_block",
+    "count": 1
+  }
+}

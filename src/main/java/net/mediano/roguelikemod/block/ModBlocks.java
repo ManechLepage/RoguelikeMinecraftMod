@@ -1,6 +1,7 @@
 package net.mediano.roguelikemod.block;
 
 import net.mediano.roguelikemod.RoguelikeMod;
+import net.mediano.roguelikemod.block.custom.SoundBlock;
 import net.mediano.roguelikemod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,12 @@ public class ModBlocks
 
     public static final RegistryObject<Block> UPGRADER = registerBlock("upgrader_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)));
+
+    public static final RegistryObject<Block> CRATE = registerBlock("crate_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> SOUNDBLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
 
     private static <T extends Block> RegistryObject<T>  registerBlock(String name, Supplier<T> block)
     {
