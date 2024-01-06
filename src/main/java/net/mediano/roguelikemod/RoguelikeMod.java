@@ -1,6 +1,7 @@
 package net.mediano.roguelikemod;
 
 import com.mojang.logging.LogUtils;
+import net.mediano.roguelikemod.block.ModBlocks;
 import net.mediano.roguelikemod.item.ModCreativeModTabs;
 import net.mediano.roguelikemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class RoguelikeMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModItems.register(modEventBus);
 

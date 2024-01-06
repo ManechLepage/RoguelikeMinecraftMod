@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "roguelikemod:block/upgrader_block"
+    }
+  }
+}

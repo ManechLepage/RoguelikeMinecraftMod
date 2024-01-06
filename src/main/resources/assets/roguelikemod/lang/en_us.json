@@ -1,4 +1,7 @@
 {
   "item.roguelikemod.coin" : "Coin",
+
+  "block.roguelikemod.upgrader_block": "Upgrader",
+
   "creativetab.roguelike_tab" : "Roguelike Tab"
 }

@@ -1,6 +1,7 @@
 package net.mediano.roguelikemod.item;
 
 import net.mediano.roguelikemod.RoguelikeMod;
+import net.mediano.roguelikemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +19,12 @@ public class ModCreativeModTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COIN.get()))
                     .title(Component.translatable("creativetab.roguelike_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        // ITEMS
                         pOutput.accept(ModItems.COIN.get());
+
+                        // BLOCKS
+                        pOutput.accept(ModBlocks.UPGRADER.get());
                     })
                     .build());
 
