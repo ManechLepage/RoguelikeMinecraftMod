@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model" : "roguelikemod:block/sound_block"
-    }
-  }
-}
